@@ -11,8 +11,8 @@ class FoodCategory {
 
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['foodName'] = this.foodName;
-    data['imageUrl'] = this.imageUrl;
+    data['foodName'] = foodName;
+    data['imageUrl'] = imageUrl;
     return data;
   }
 }
